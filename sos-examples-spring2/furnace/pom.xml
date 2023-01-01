@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>eu.arrowhead</groupId>	
+		<artifactId>demo</artifactId>
+		<version>4.4.0.2</version>
+	</parent>
+	
+	<artifactId>furnace</artifactId>
+	<packaging>pom</packaging>
+	
+	<modules>
+	    <module>furnace-common</module>
+		<module>door-sensor-provider</module>
+		<module>heater-consumer</module>
+	    <module>heating-system</module>
+		<module>temperature-sensor-provider</module>
+	</modules>
+</project>
